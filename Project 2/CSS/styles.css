@@ -1,0 +1,102 @@
+body {
+    background-color: #FED99C;
+    font-family: 'Supermercado One', cursive;
+}
+
+h3 {
+    text-align: center;
+    color: seagreen;
+}
+
+#containers {
+    background-color: #C1EE92;
+    width: 1200px;
+    margin: 20px auto;
+    border: 4px solid #52607E;
+    box-shadow: 5px 5px 10px #000;
+}
+
+header {
+    background-color: darkslategray;
+    padding: 20px 0;
+    border-radius: 20px 20px 0 0;
+}
+
+header img { 
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+}
+header h1 {
+    font-size: 2.5em;
+    text-align: center;
+    color: burlywood;
+    font-family: 'Roboto Mono', monospace;
+    text-shadow: 2px 2px 2px #000;
+}
+
+nav { 
+    background-color: indianred;
+    padding: 20px 0;
+    text-align: center;
+    margin: 10px 0;
+}
+
+nav a {
+    display: inline-block;
+    background-color: floralwhite;
+    height: 40px;
+    width: 200px;
+    line-height: 40px;
+    font-size: 1.5em;
+    color: khaki;
+    text-decoration: none;
+    font-family: fantasy;
+}
+
+nav a:hover {
+    background-color: lightcyan;
+    color: black;
+}
+
+main {
+    background-color: lightsalmon;
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px solid black;
+}
+main h2 {
+    text-align: center;
+    color: cornflowerblue;
+    font-size: 2em;
+    font-family: 'Roboto Mono', monospace;
+}
+
+main img {
+    display: block;
+    margin: 20px auto;
+    width: 35%;
+    background-color: lightseagreen;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+footer {
+    background-color: rebeccapurple;
+    color: mediumaquamarine;
+    padding: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.active {
+    background-color: #FED99C;
+    color: aliceblue;
+}
+
+.pro_head {
+    text-align: center;
+    color: azure;
+    font-size: 1.5em;
+    font-family: 'Roboto Mono', monospace;
+}
