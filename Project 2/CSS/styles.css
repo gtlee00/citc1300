@@ -63,7 +63,7 @@ main {
     background-color: lightsalmon;
     width: 900px;
     margin: 0 auto;
-    padding: 20px black;
+    padding: 20px;
 }
 main h2 {
     text-align: center;
