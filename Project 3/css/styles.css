@@ -6,7 +6,8 @@ img {
 
 body {
     background-color: #264653;
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Rowdies', cursive;
+    font-size: large; 
 }
 
 #container {
@@ -23,6 +24,7 @@ header {
 }
 
 .col {
+    text-align: center;
     border: 2px solid #E9C46A;
     padding: 10px;
     margin: 10px;
