@@ -28,11 +28,10 @@ header {
     border: 2px solid #E9C46A;
     padding: 10px;
     margin: 10px;
-    border-radius: 20px;
 }
 
 .col img{
-    width: 75%;
+    width: 50%;
     height: 50%;
 }
 
