@@ -1,0 +1,189 @@
+/* Global Stlyes */
+
+img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #097032;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #097032;
+}
+
+/* End Global Styles */
+
+
+
+/* Mobile Styles */
+
+header {
+    padding: 10px 0;
+}
+
+header img {
+    width: 50%;
+    padding: 10px;
+}
+
+header h1{
+    font-size: 1.7em;
+}
+
+#container {
+    background-color: #F1E1BB;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav {
+    background-color: #77C542;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+    border-top: 4px solid #F1E1BB;
+}
+
+nav li a {
+    display: block;
+    background-color: #097032;
+    color: #F1E1BB;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #0192DE;
+}
+
+main img {
+    width: 50%;
+}
+
+.col {
+    border: 4px solid #097032;
+    padding: 10px;
+    margin: 10px;
+}
+
+.col img {
+    width: 100%;
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+    color: #097032;
+}
+
+.learn_more {
+    display: block;
+    background-color: #097032;
+    color: #F1E1BB;
+    height: 40px;
+    width: 150px;
+    line-height: 40px;
+    font-size: 1.2em;
+    text-decoration: none;
+    border: 2px solid #0192DE;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.learn_more:hover {
+    background-color: #0192DE;
+}
+
+.single_col {
+    width: 100%;
+}
+/* End Mobile Styles */
+
+
+
+/* Tablet Styles */
+
+@media (min-width: 768px) {
+    
+
+    header img {
+        width: 35%;
+    }
+
+    nav li {
+        border: none;
+        display: inline-block;
+    }
+
+    nav {
+        text-align: center;
+        padding: 5px;
+    }
+
+    nav li a {
+        width: 175px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #flex {
+        display: flex;
+    }
+    main img {
+        width: 35%;
+    }
+
+    .col img {
+        width: 65%;
+    }
+
+    section, aside {
+        width: 50%;
+    }
+
+    aside img {
+        width: 50%;
+    }
+
+    .col img {
+        width: 124px;
+        border-radius: 10px;
+        border: 4px solid #097032;
+    }
+}
+
+/* End Tablet Styles */
+
+
+/* Desktop Styles */
+
+@media(min-width: 1024px) {
+    #container {
+        width: 65%;
+        margin: 20px auto;
+        border: 4px solid #F1E1BB;
+        border-radius: 20px;
+    }
+
+    header {
+        border-radius: 20px 40px 0 0;
+    }
+
+    nav li a {
+        margin: 0 20px;
+    }
+}

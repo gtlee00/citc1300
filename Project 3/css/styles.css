@@ -30,9 +30,8 @@ header {
     margin: 10px;
 }
 
-.col img{
-    width: 50%;
-    height: 50%;
+.col img {
+    width: auto;
 }
 
 main img{
