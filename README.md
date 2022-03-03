@@ -9,4 +9,6 @@
 
  <li><a href = "Project 3/index.html" target = "_blank">Project 3</a></li>
 
+ <li><a href = "Final/index.html" target = "_blank">Final Project</a></li>
+
  </ul>
